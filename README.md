@@ -23,7 +23,7 @@ To set up the project on your local machine, follow these steps:
 2. Install Required Libraries: Make sure you have Python installed, then install the required libraries using pip:
    ```bash
    pip install opencv-python numpy matplotlib
-  ```
+   ```
 ## Usage
 To run the lane detection system, you can process images, videos, or live camera feeds using the command line. Below are the command formats:
 **Detect lanes in a single image**
