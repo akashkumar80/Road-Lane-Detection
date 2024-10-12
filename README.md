@@ -58,13 +58,13 @@ python lane_detection.py --camera 0 --output output_live.avi
 
 ## Code Structure
 <ul>
-  <li>**lane_detection.py:** Main script that implements lane detection using various functions.</li>
-  <li>**region_of_interest():** Defines the area of interest for lane detection.</li>
-  <li>**make_line_points():** Calculates line endpoints based on slope and intercept.</li>
-  <li>**draw_line():** Draws detected lane lines on the image.</li>
-  <li>**Detect_lane_frame():** Processes a single frame/image for lane detection.</li>
-  <li>**Detect_Lane():** Handles video input for lane detection.</li>
-  <li>**Detect_image():** Detects lanes in a single image file.</li>
-  <li>**Detect_video():** Detects lanes in a video file.</li>
-  <li>**Detect_live():** Detects lanes using live camera input.</li>
+  <li>lane_detection.py: Main script that implements lane detection using various functions.</li>
+  <li>region_of_interest(): Defines the area of interest for lane detection.</li>
+  <li>make_line_points(): Calculates line endpoints based on slope and intercept.</li>
+  <li>draw_line():** Draws detected lane lines on the image.</li>
+  <li>Detect_lane_frame(): Processes a single frame/image for lane detection.</li>
+  <li>Detect_Lane(): Handles video input for lane detection.</li>
+  <li>Detect_image(): Detects lanes in a single image file.</li>
+  <li>Detect_video(): Detects lanes in a video file.</li>
+  <li>Detect_live(): Detects lanes using live camera input.</li>
 </ul>
